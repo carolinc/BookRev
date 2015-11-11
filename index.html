@@ -14,24 +14,25 @@
   <link rel="stylesheet "href="style.css">
 
 
-
   </head>
   <body>
 
-
-
 <header>
-    <h1>Calder and sandra</h1>
+<div class="parallax-container">
+  <div class="parallax"><img src="img/header.jpg" style="height:auto; width:100%;"></div>
+</div>
 </header>
 
 
 
+
+
 <div class="row">
-  <div class="container col s12" id="book-bio">
+  <div class="container col s12 m4" id="book-bio">
     <img src="img/birdbox.jpg" class="z-depth-4" alt="bird box book cover">
     <p><span class="title">Title:</span> Bird Box </p>
     <p><span class="author">Author:</span> Josh Malerman </p>
-    <p><span class="rating">Rating:</span> 4 / 5 stars </p>
+    <p><i class="material-icons">star star star star star_border</i></p>
   </div>
 
 
@@ -75,18 +76,20 @@
       <hr>
 
 <footer>
-<p>created by..Carolin!</p>      
+<p>created by..Carolin!</p>
 </footer>
 
 
 
           <!--Import jQuery before materialize.js-->
 
-          <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js">
-      $(document).ready(function(){
-    $('.parallax').parallax();
-});
-      </script>
+          <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js">      </script>
+          <script>
+          $(document).ready(function(){
+        $('.parallax').parallax();
+          });
+          </script>
+
             <script type="text/javascript" src="js/materialize.min.js">
 
 

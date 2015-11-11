@@ -44,6 +44,10 @@ hr {
     padding: 1em;
 }
 
-.parallax-container {
-      height: 400px;
-    }
+.parallax-container{
+    height: 600px;
+}
+
+footer {
+    text-align: center;
+}
